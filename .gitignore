@@ -1,0 +1,34 @@
+# 凭证（包含登录信息，切勿提交）
+bili_credential.json
+bili_credential.json.bak
+*.dpapi.json
+.env
+.env.*
+
+# 登录二维码（临时文件）
+qrcode_login.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
